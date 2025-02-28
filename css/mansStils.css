@@ -1,9 +1,54 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
-*/
-/* 
-    Created on : Feb 21, 2025, 1:34:12 PM
-    Author     : Drancane
-*/
+
+body{background-color: #FFF0F5}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;}
+video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;}
+h1 {
+  text-align: center;}
+
+h2 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFB6C1;
+  position: fixed;
+  top:  0;
+  width: 100%
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #DB7093;
+
+li:{
+  border-right: none;}
+ img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;}
+
 
