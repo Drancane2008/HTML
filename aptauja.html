@@ -8,17 +8,18 @@ Cl
         <title>Aptauja</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <link rel="stylesheet" href="css/mansStils2.css">
+         <link rel="stylesheet" href="css/mansStils.css">
     </head>
     <body>
         <h1> Atsauksme! </h1>
+        <br>
                 <form>
                     <form action="/action_page.php">
  <strong>  <label for="fname">Vārds:</label><br></strong> 
   <input type="text" id="fname" name="fname"><br>
   <strong> <label for="lname">Uzvārds:</label><br></strong> 
   <input type="text" id="lname" name="lname">
-  <input type="submit" value="Submit">
+  <input type="submit" value="Iesniegt">
   
 </form>
                     <br>
@@ -30,7 +31,30 @@ Cl
   <label for="vehicle2">Nē </label><br>
   <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
   <label for="vehicle3"> Nezinu </label><br><br>
-  <input type="submit" value="Submit">
-</form> 
+  <input type="submit" value="Iesniegt">
+  </form>
+                    <br>
+                    <br>
+                    <form action="/action_page.php">
+ <strong>  <label for="fname">Ieteikumi</label><br></strong> 
+ <br>
+ <textarea> Ievieto savus komentārus šeit...
+ </textarea>
+ <br>
+ <br>
+  <input type="submit" value="Iesniegt">
+      
+                    </form>
+                    <br> 
+                    <h2> Jautrības</h2>
+ <form>     
+        <div>1.skaitlis<input type="text" name="sk1"> </div>
+        <div>
+            <input value="X" name="reiz" onclick="rez.value=sk1.value*sk2.value" type="button">
+        </div>
+        <div>2.skaitlis<input type="text" name="sk2"> </div>
+        <br>
+        <div>Rezultāts<input name="rez"> </div>
+    </form>
     </body>
 </html>
